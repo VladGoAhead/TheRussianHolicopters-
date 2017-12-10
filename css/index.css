@@ -1,0 +1,78 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+* {
+    outline: none;
+}
+
+.header {
+    height: 75px;
+    padding: 0 10% 7px;
+    font-size: 0;
+}
+
+.header > div {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+}
+
+div.menu-content {
+    display: block;
+    border-top: 2px solid #eee;
+    margin-top: .5em;
+}
+
+.logo {
+ width: 10%;
+}
+
+    .logo > img {
+        height: 75px;
+        width: auto;
+        position: relative;
+        display: block;
+    }
+
+div.slogan {
+    width: calc(85% - 2%);
+    font-size: 18px;
+    line-height: 2;
+    padding-left: 2%;
+}
+
+div.menu-buttons {
+    width: 5%;
+    text-align: right;
+    font-size: 18px;
+}
+div.menu-buttons i {
+    font-size: inherit;
+}
+
+#search-buttom, #menu-button {
+    border: none;
+    background: none;
+    color: #3f3fc1;
+    cursor: pointer;
+}
+
+#menu-search-field {
+    border: 2px solid #eee;
+    border-top: none;
+}
+
+#search-text {
+    font-size: 18px;
+    line-height: 2.5em;
+    padding: 0 .5em;
+    border: 0;
+}
+
